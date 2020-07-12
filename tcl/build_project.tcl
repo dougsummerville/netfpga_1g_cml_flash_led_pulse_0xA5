@@ -1,3 +1,5 @@
+#TCL Script to build a simple project
+#Author: Doug Summerville, Binghamton University
 set TOP_NAME [lindex $argv 0]
 set PROJECT_NAME "netfpga_1g_cml_$TOP_NAME"
 cd project

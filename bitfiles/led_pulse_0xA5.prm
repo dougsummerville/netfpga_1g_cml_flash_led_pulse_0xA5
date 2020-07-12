@@ -3,9 +3,9 @@ Configuration Memory information
 ===================================
 File Format        MCS
 Interface          BPIX16
-Size               1024M
+Size               128M
 Start Address      0x00000000
-End Address        0x3FFFFFFF
+End Address        0x07FFFFFF
 
 Addr1         Addr2         Date                    File(s)
-0x00000000    0x00AE9D9B    Jul 11 21:54:56 2020    bitfiles/led_pulse_0xA5.bit
+0x00000000    0x00AE9D9B    Jul 11 22:27:55 2020    bitfiles/led_pulse_0xA5.bit

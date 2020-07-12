@@ -1,3 +1,9 @@
+#TCL script to auto create a project from a source tree
+#src dir must be in current directory and contain hdl, xdc, and ip 
+#subdirs which are auto scanned for the appropriate file types
+#
+#Author Doug Summerville, Binghamton University
+#
 set TOP_NAME [lindex $argv 0]
 set PROJECT_NAME "netfpga_1g_cml_$TOP_NAME"
 puts $PROJECT_NAME

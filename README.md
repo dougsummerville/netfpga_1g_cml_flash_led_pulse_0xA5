@@ -32,4 +32,18 @@ gui
 <dd>
 opens the project in Vivado gui
 </dd>
+
+<dt><strong>
+program_fpga
+</strong></dt>
+<dd>
+Programs the project bitfile to the volatile FPGA configuration.
+</dd>
+
+<dt><strong>
+program_bpi_flash
+</strong></dt>
+<dd>
+Programs the project bitfile to the non-volatile FPGA BPI configuration flash.
+</dd>
 </dl>
