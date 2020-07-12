@@ -4,10 +4,32 @@ The project was created with Vivado 2018.3.  Later versions of Vivado may requir
 
 If you want to build the pxpject, edit the file system.make to match your environment.  The the following make targets are available
 
-*clean
+<dl>
+<dt><strong>
+clean
+</strong></dt>
+<dd>
+(obvious)
+</dd>
 
-*project : creates the project on disk to be opened if you want to explore/modify/etc.
+<dt><strong>
+project
+</strong></dt>
+<dd>
+creates the project on disk to be opened if you want to explore/modify/etc.
+</dd>
 
-*bitfile : creates the bitfiles (.bit and .mcs)
+<dt><strong>
+bitfile
+</strong></dt>
+<dd>
+creates the bitfiles (.bit and .mcs)
+</dd>
 
-*gui : opens the project in Vivado gui
+<dt><strong>
+gui
+</strong></dt>
+<dd>
+opens the project in Vivado gui
+</dd>
+</dl>
