@@ -2,9 +2,12 @@ NetFPGA 1G CML project that creates an alternating pattern 0xA,0x5,0xA... on the
 
 The project was created with Vivado 2018.3.  Later versions of Vivado may required to upgrade the clock wizard IP.  In that case, build the project, open it in the gui, and update the IP.
 
-If you want to build the porject, edit the file system.make to match your environment.  The the following make targets are available
+If you want to build the pxpject, edit the file system.make to match your environment.  The the following make targets are available
 
 *clean
+
 *project : creates the project on disk to be opened if you want to explore/modify/etc.
+
 *bitfile : creates the bitfiles (.bit and .mcs)
+
 *gui : opens the project in Vivado gui
